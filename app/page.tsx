@@ -2,6 +2,8 @@ import { supabase } from "@/lib/supabase";
 import HubClient from "@/components/HubClient";
 import { ResourceEntry } from "@/types/resource";
 
+export const dynamic = "force-dynamic";
+
 const FALLBACK_RESOURCES: ResourceEntry[] = [
   {
     id: "fallback-purifiers",
