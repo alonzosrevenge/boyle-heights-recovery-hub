@@ -34,6 +34,21 @@ export default function HubClient({
         <LangToggle lang={lang} onChange={setLang} />
       </header>
 
+      <p className="mb-4 text-[12px] text-dusk">
+        {lang === "en"
+          ? "For the most current official information, visit "
+          : "Para la informacion oficial mas actual, visite "}
+        <a
+          href="https://cd14.lacity.gov/articles/boyle-heights-storage-facility-fire-current-emergency-information"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline"
+        >
+          CD14&apos;s official page
+        </a>
+        .
+      </p>
+
       <AqiPanel lang={lang} />
 
       <h2 className="mb-3 mt-7 font-display text-sm font-semibold uppercase tracking-wide text-dusk">
