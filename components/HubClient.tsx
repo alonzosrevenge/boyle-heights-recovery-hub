@@ -17,8 +17,8 @@ export default function HubClient({
     lang === "en" ? "Help available near you" : "Ayuda disponible cerca de usted";
   const disclaimer =
     lang === "en"
-      ? "Built by an independent Boyle Heights resident. Always verify with LAFD, AQMD, or LA County Public Health."
-      : "Creado por un residente independiente de Boyle Heights. Siempre verifique con LAFD, AQMD o el Departamento de Salud Publica del Condado de LA.";
+      ? "Built by an independent Los Angeles resident. Always verify with LAFD, AQMD, or LA County Public Health."
+      : "Creado por un residente independiente de Los Angeles. Siempre verifique con LAFD, AQMD o el Departamento de Salud Publica del Condado de LA.";
 
   return (
     <div className="mx-auto max-w-md px-4 py-8">
